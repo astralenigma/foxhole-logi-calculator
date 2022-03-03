@@ -2,8 +2,6 @@
   <v-app>
     <v-main>
       <Banner/>
-      <MassProductionFactory/>
-      <div class="divider"></div>
       <v-container class="small-container text-end">
         <a 
           @click="switchFactoryAdvancedMode"
@@ -15,6 +13,8 @@
       </v-container>
       <Factory v-if="!factoryAdvancedMode"/>
       <FactoryAdvanced v-else/>
+      <div class="divider"></div>
+      <MassProductionFactory/>
       <div class="divider"></div>
       <Garage/>
       <div class="divider"></div>
