@@ -1,93 +1,153 @@
 [
   {
+    "key": "BarbedWirePlatform",
+    "name": "Barbed Wire Pallet",
     "category": "shippable",
-    "key": "mixer",
-    "name": "Concret Mixer",
-    "bmat": 0,
-    "emat": 0,
-    "hemat": 0,
-    "rmat": 75,
-    "mpfTime": 3750,
-    "craftableInMpf": true,
-    "requireTech": true,
-    "ammo": []
-  },
-  {
-    "category": "shippable",
-    "key": "atcannon",
-    "name": "68mm Anti-Tank Cannon",
-    "bmat": 150,
-    "emat": 0,
-    "hemat": 0,
-    "rmat": 0,
-    "mpfTime": 7500,
-    "craftableInMpf": true,
-    "requireTech": true,
-    "ammo": ["68"]
-  },
-  {
-    "category": "shippable",
-    "key": "exalt",
-    "name": "Huber Exalt 150mm",
-    "bmat": 0,
-    "emat": 0,
-    "hemat": 0,
-    "rmat": 175,
-    "mpfTime": 8750,
-    "craftableInMpf": true,
-    "requireTech": true,
-    "ammo": ["150"]
-  },
-  {
-    "category": "shippable",
-    "key": "lariat",
-    "name": "Huber Lariat 120mm",
-    "bmat": 0,
-    "emat": 0,
-    "hemat": 0,
-    "rmat": 35,
-    "mpfTime": 1750,
-    "craftableInMpf": true,
-    "requireTech": true,
-    "ammo": ["120"]
-  },
-  {
-    "category": "shippable",
-    "key": "flak-sama",
-    "name": "14.5 Anti Infantry Flak Gun",
-    "bmat": 75,
-    "emat": 0,
-    "hemat": 0,
-    "rmat": 0,
-    "mpfTime": 3750,
-    "craftableInMpf": true,
-    "requireTech": true,
-    "ammo": ["14.5"]
-  },
-  {
-    "category": "shippable",
-    "key": "rcontainer",
-    "name": "Ressource Container",
-    "bmat": 50,
-    "emat": 0,
-    "hemat": 0,
-    "rmat": 0,
-    "mpfTime": 2500,
-    "craftableInMpf": true,
     "requireTech": false,
-    "ammo": []
-  },
-  {
-    "category": "shippable",
-    "key": "scontainer",
-    "name": "Shipping container",
+    "craftableInMpf": true,
     "bmat": 100,
-    "emat": 0,
-    "hemat": 0,
     "rmat": 0,
-    "mpfTime": 5000,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [],
+    "mpfTime": 5000
+  },
+  {
+    "key": "ConcreteMixer",
+    "name": "Concrete Mixer",
+    "category": "shippable",
+    "requireTech": true,
     "craftableInMpf": true,
+    "bmat": 0,
+    "rmat": 75,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [],
+    "mpfTime": 3750
+  },
+  {
+    "key": "EmplacedAT",
+    "name": "68mm Anti-Tank Cannon",
+    "category": "shippable",
+    "requireTech": true,
+    "craftableInMpf": true,
+    "bmat": 150,
+    "rmat": 0,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [
+      "ATAmmo"
+    ],
+    "mpfTime": 7500
+  },
+  {
+    "key": "EmplacedHeavyArtilleryW",
+    "name": "Huber Exalt 150mm",
+    "category": "shippable",
+    "requireTech": true,
+    "craftableInMpf": true,
+    "bmat": 0,
+    "rmat": 175,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [
+      "HeavyArtilleryAmmo"
+    ],
+    "mpfTime": 8750
+  },
+  {
+    "key": "EmplacedLightArtilleryW",
+    "name": "Huber Lariat 120mm",
+    "category": "shippable",
+    "requireTech": true,
+    "craftableInMpf": true,
+    "bmat": 0,
+    "rmat": 35,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [
+      "LightArtilleryAmmo"
+    ],
+    "mpfTime": 1750
+  },
+  {
+    "key": "EmplacedMachineGun",
+    "name": "12.7 Anti Infantry Flak Gun",
+    "category": "shippable",
+    "requireTech": true,
+    "craftableInMpf": true,
+    "bmat": 75,
+    "rmat": 0,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [
+      "MGAmmo"
+    ],
+    "mpfTime": 3750
+  },
+  {
+    "key": "MetalBeamPlatform",
+    "name": "Metal Beam Pallet",
+    "category": "shippable",
     "requireTech": false,
-    "ammo": []
+    "craftableInMpf": true,
+    "bmat": 100,
+    "rmat": 0,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [],
+    "mpfTime": 5000
+  },
+  {
+    "key": "ResourceContainer",
+    "name": "Resource Container",
+    "category": "shippable",
+    "requireTech": false,
+    "craftableInMpf": true,
+    "bmat": 50,
+    "rmat": 0,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [],
+    "mpfTime": 2500
+  },
+  {
+    "key": "SandbagPlatform",
+    "name": "Sandbag Pallet",
+    "category": "shippable",
+    "requireTech": false,
+    "craftableInMpf": true,
+    "bmat": 100,
+    "rmat": 0,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [],
+    "mpfTime": 5000
+  },
+  {
+    "key": "ShippingContainer",
+    "name": "Shipping Container",
+    "category": "shippable",
+    "requireTech": false,
+    "craftableInMpf": true,
+    "bmat": 100,
+    "rmat": 0,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [],
+    "mpfTime": 5000
+  },
+  {
+    "key": "SmallShippingContainer",
+    "name": "Small Shipping Container",
+    "category": "shippable",
+    "requireTech": false,
+    "craftableInMpf": true,
+    "bmat": 100,
+    "rmat": 0,
+    "hemat": 0,
+    "emat": 0,
+    "ammo": [],
+    "mpfTime": 5000
   }
 ]
